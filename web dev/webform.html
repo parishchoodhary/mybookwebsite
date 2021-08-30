@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=fpr, initial-scale=1.0">
+
+     <title>Document</title>
+
+     <style>
+         /* *{
+             box-sizing: border-box;
+         } */
+
+         div{
+
+            padding: 10px;
+            border: 10px solid black;
+
+         }
+
+         /* body{
+
+            padding: 100px;
+            border-color: rgb(235, 19, 19);
+         } */
+     </style>
+</head>
+<body>
+    
+    <center> <form action="">
+         <h1> <div> Payment gateway </div></h1>
+         <hr>
+
+         <h2>Contact Info</h2>
+         <p>Full Name : <input type="text" name="name" required placeholder="Enter name"></p>
+         <p> Email : <input type="email" name="email" id="email" placeholder="Enter email"></p>
+         
+         
+         <label for="country"> Choose your country </label>
+         <select name="country" id="country">
+             
+             <option value="US"> US </option>
+             <option value="India"> India </option>
+             <option value="UK"> UK </option>
+            
+
+
+         </select>
+         <p> Phone Number: <input type="number"></p>
+
+         
+         <p>
+             <legend> <b> Gender </b>  &nbsp;
+            Male <input type="radio" name="gender" id="">
+            Female <input type="radio" name="gender" id="">
+        
+            </legend>
+        </p>
+
+        <p>
+           Address <textarea name="address" id="address" cols="20" rows="1"></textarea>
+        </p>
+
+        <hr>
+
+        <h2>Payment Info</h2>
+
+        <p> Card Number <input type="number" name="card number" id="card number"></p>
+        <p> Expiry date <input type="date" name="expiry date" id="expiry date"></p>
+        <p> CVV <input type="password" name="CVV" id="CVV"></p>
+
+
+        <!-- <select>
+             <option value="Class 1 ">Class 1 </option>
+             <option value="Class 2 ">Class 2 </option>
+             <option value="Class 3 ">Class 3 </option>
+            </select> -->
+            <br>
+            <br>
+          <input type="submit" value="Pay now"> 
+          <input type="reset"> 
+
+     </form>
+    </center>
+
+
+</body>
+</html>
